@@ -1,31 +1,33 @@
 # dronelib
 
-Control Chinese drones with Node.js.
+Control lewei-based drones with Node.js.
 
-I tested this on a "Propel Ultra-X + WiFi", but it should work on any similar model.
+## Tested on
+[hieyou1](https://github.com/hieyou1): [EACHINE E65HW](https://www.amazon.com/gp/product/B08CXLVZK2) [used for active testing]
+[tjhorner](https://github.com/tjhorner): Propel Ultra-X + WiFi [tested on [original repo](https://github.com/tjhorner/dronelib)]
 
 ## Features
 
 - Move your drone (throttle, direction, turning)
-- Auto take-off
 - Calibrate gyro
 - Unlock motor
+- Auto take-off (and land)
 
 ## Example
 
 First, make sure you are connected to your drone's AP.
 
 ```javascript
-const { Drone } = require('dronelib')
+const { Drone } = require('dronelib');
 
-const drone = new Drone()
+const drone = new Drone();
 
 // Enabling will start sending commands to your drone
 // and the lights on it should stop blinking
-drone.enable()
+drone.enable();
 
 // Take flight!
-drone.takeOff()
+drone.takeOff();
 ```
 
 ## Fields
@@ -107,3 +109,8 @@ Toggle the drone's motor lock. This enables/disables the altitude lock. There's 
 ## License
 
 This project is licensed under the GNU GPL v3.
+
+## Contributors
+[tjhorner](https://github.com/tjhorner)
+[hieyou1](https://github.com/hieyou1)
+[AidanSpeakss](https://github.com/AidanSpeakss)
