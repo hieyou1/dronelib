@@ -3,8 +3,8 @@
 Control lewei-based drones with Node.js.
 
 ## Tested on
-[hieyou1](https://github.com/hieyou1): [EACHINE E65HW](https://www.amazon.com/gp/product/B08CXLVZK2) [used for active testing]
-[tjhorner](https://github.com/tjhorner): Propel Ultra-X + WiFi [tested on [original repo](https://github.com/tjhorner/dronelib)]
+- [EACHINE E65HW](https://www.amazon.com/gp/product/B08CXLVZK2) by [hieyou1](https://github.com/hieyou1) [used for active testing]
+- Propel Ultra-X + WiFi by [tjhorner](https://github.com/tjhorner) [tested on [original repo](https://github.com/tjhorner/dronelib)]
 
 ## Features
 
