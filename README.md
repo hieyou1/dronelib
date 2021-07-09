@@ -1,4 +1,4 @@
-# dronelib
+# lewei-control
 
 Control lewei-based drones with Node.js.
 
@@ -18,7 +18,7 @@ Control lewei-based drones with Node.js.
 First, make sure you are connected to your drone's AP.
 
 ```javascript
-const { Drone } = require('dronelib');
+const { Drone } = require('lewei-control');
 
 const drone = new Drone();
 

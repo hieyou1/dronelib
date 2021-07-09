@@ -1,6 +1,6 @@
 {
-    "name": "dronelib",
-    "version": "1.0.3",
+    "name": "lewei-control",
+    "version": "1.0.0",
     "description": "Control your lewei-based drone from Node.js",
     "main": "index.js",
     "scripts": {
@@ -8,5 +8,6 @@
     },
     "keywords": [],
     "author": "",
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
+    "repository": "github:hieyou1/lewei-control"
 }

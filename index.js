@@ -5,7 +5,7 @@ const COMMAND_CALIBRATE_GYRO = 0x80;
 const COMMAND_UNLOCK_MOTOR = 0x40;
 
 function debug(msg) {
-    if (process.env.DRONELIB_DEBUG) console.log(`[dronelib] ${msg}`);
+    if (process.env.LEWEI_DEBUG) console.log(`[lewei] ${msg}`);
 }
 
 class Drone {
